@@ -10,7 +10,7 @@ const Navbar: React.FC = () => {
           src="/logo.jpg"
           alt='Logo'
           layout='fill'
-          objectFit='cover'
+          objectFit='fill'
           className='rounded-md'
           />
         </div>
@@ -69,7 +69,7 @@ const Navbar: React.FC = () => {
           src= "/logo.jpg"
           alt="logo"
           layout='fill'
-          objectFit='cover'
+          objectFit='cover' 
           className='rounded-md'
           />
           </div>

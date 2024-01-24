@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Feature1",
+        "img": "/feature2.avif"
+    },
+    {
+        "name": "Feature2",
+        "img": "/feature2.avif"
+    },
+    {
+        "name":"Feature3",
+        "img":"/feature2.avif"
+    }
+        
+]
