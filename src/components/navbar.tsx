@@ -40,7 +40,7 @@ const Navbar: React.FC = () => {
          
           <div className="relative">
             <div
-              className="flex items-center text-sm text-gray-900 dark:text-white hover:bg-green-200 hover:text-green-500 rounded-full px-3 py-1 cursor-pointer transition duration-300"
+              className="flex items-center text-sm text-green-500 dark:text-white hover:bg-green-700 hover:text-white rounded-full px-3 py-1 cursor-pointer transition duration-300"
               id="user-menu-button"
               data-dropdown-toggle="user-dropdown"
               data-dropdown-placement="bottom-start"
