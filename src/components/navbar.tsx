@@ -1,5 +1,14 @@
 import React from 'react';
 import Image from 'next/image';
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu"
+
 const Navbar: React.FC = () => {
   return (
     <nav className="bg-white p-4 shadow-md">
@@ -25,6 +34,7 @@ const Navbar: React.FC = () => {
           <a href="#" className="text-green-500 hover:bg-green-700 hover:text-white rounded-full px-3 py-1 dark:hover:bg-green-700 dark:text-white transition duration-300">About</a>
           <a href="#" className="text-green-500 hover:bg-green-700 hover:text-white rounded-full px-3 py-1 dark:hover:bg-green-700 dark:text-white transition duration-300">Services</a>
           <a href="#" className="text-green-500 hover:bg-green-700 hover:text-white rounded-full px-3 py-1 dark:hover:bg-green-700 dark:text-white transition duration-300">Contact</a>
+        
         </div>
         <div className="hidden md:flex items-center space-x-3">
          
@@ -36,33 +46,21 @@ const Navbar: React.FC = () => {
               data-dropdown-placement="bottom-start"
             >
               <span className="sr-only">Menu</span>
-              <span>Profile</span>
+              <span><DropdownMenu>
+
+<DropdownMenuTrigger><button>Profile</button></DropdownMenuTrigger>
+<DropdownMenuContent>
+  <DropdownMenuLabel>My Account</DropdownMenuLabel>
+  <DropdownMenuSeparator />
+  <DropdownMenuItem>Profile</DropdownMenuItem>
+  <DropdownMenuItem>Billing</DropdownMenuItem>
+  <DropdownMenuItem>Team</DropdownMenuItem>
+  <DropdownMenuItem>Subscription</DropdownMenuItem>
+</DropdownMenuContent>
+</DropdownMenu></span>
               
             </div>
-            <div
-              className="z-50 hidden text-base list-none bg-black divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600"
-              id="user-dropdown"
-            >
-              
-              <div className="px-4 py-3">
-                <span className="block text-sm text-gray-900 dark:text-white">Simer</span>
-                <span className="block text-sm text-gray-500 truncate dark:text-gray-400">name@gmail.com</span>
-              </div>
-              <ul className="py-2" aria-labelledby="user-menu-button">
-                <li>
-                  <a href="#" className="block px-4 py-2 text-sm text-green-800 hover:bg-green-800 hover:text-white rounded-full dark:hover:bg-green-800 transition duration-300">Dashboard</a>
-                </li>
-                <li>
-                  <a href="#" className="block px-4 py-2 text-sm text-green-800 hover:bg-green-800 hover:text-white rounded-full dark:hover:bg-green-800 transition duration-300">Profile</a>
-                </li>
-                <li>
-                  <a href="#" className="block px-4 py-2 text-sm text-green-800 hover:bg-green-800 hover:text-white rounded-full dark:hover:bg-green-800 transition duration-300">Logout</a>
-                </li>
-                <li>
-                  <a href="#" className="block px-4 py-2 text-sm text-green-800 hover:bg-green-800 hover:text-white rounded-full dark:hover:bg-green-800 transition duration-300">Savings</a>
-                </li>
-              </ul>
-            </div>
+            
           </div>
           <div className='w-20 h-20 relative'>
           <Image
