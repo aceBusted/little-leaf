@@ -46,7 +46,7 @@ const Navbar: React.FC = () => {
               <span className="sr-only">Menu</span>
               <span><DropdownMenu>
 
-<DropdownMenuTrigger><button>Profile</button></DropdownMenuTrigger>
+<DropdownMenuTrigger className='rounded-md'>Profile</DropdownMenuTrigger>
 <DropdownMenuContent>
   <DropdownMenuLabel>My Account</DropdownMenuLabel>
   <DropdownMenuSeparator />
