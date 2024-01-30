@@ -25,9 +25,7 @@ const Navbar: React.FC = () => {
         </div>
           <span className="self-center text-2xl font-semibold whitespace-nowrap text-green-500 dark:text-white">Little Leaf</span>
         </a>
-        <div className="lg:hidden">
-          
-          
+        <div className="lg:hidden">  
         </div>
         <div className="hidden lg:flex space-x-4 lg:items-center">
           <a href="#" className="text-green-500 hover:bg-green-700 hover:text-white rounded-full px-3 py-1 dark:hover:bg-green-700 dark:text-white transition duration-300">Home</a>
