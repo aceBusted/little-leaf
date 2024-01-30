@@ -7,7 +7,7 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
+} from "@/components/ui/dropdown-menu";
 
 const Navbar: React.FC = () => {
   return (
@@ -25,13 +25,42 @@ const Navbar: React.FC = () => {
         </div>
           <span className="self-center text-2xl font-semibold whitespace-nowrap text-green-500 dark:text-white">Little Leaf</span>
         </a>
-        <div className="lg:hidden">  
+        <div className="lg:hidden">
+          <div className='flex items-center space-x-4'>
+          <div className="relative">
+              <div
+                className="flex items-center sm:text-left text-green-500 dark:text-white hover:bg-green-700 hover:text-white rounded-full px-3 py-1 cursor-pointer transition duration-300"
+                id="user-menu-button"
+                data-dropdown-toggle="user-dropdown"
+                data-dropdown-placement="bottom-start"
+              >
+                <span className="sr-only">Menu</span>
+                <span>
+                  <DropdownMenu>
+                    <DropdownMenuTrigger><button>Profile</button></DropdownMenuTrigger>
+                    <DropdownMenuContent>
+
+                      <div>
+                        <DropdownMenuLabel>My Account</DropdownMenuLabel>
+                        <DropdownMenuSeparator />
+                        <DropdownMenuItem>Profile</DropdownMenuItem>
+                        <DropdownMenuItem>Billing</DropdownMenuItem>
+                        <DropdownMenuItem>Team</DropdownMenuItem>
+                        <DropdownMenuItem>Subscription</DropdownMenuItem>
+                      </div>
+                    </DropdownMenuContent>
+                  </DropdownMenu>
+                </span>
+              </div>
+            </div>
+          </div>
+          
         </div>
         <div className="hidden lg:flex space-x-4 lg:items-center">
-          <a href="#" className="text-green-500 hover:bg-green-700 hover:text-white rounded-full px-3 py-1 dark:hover:bg-green-700 dark:text-white transition duration-300">Home</a>
-          <a href="#" className="text-green-500 hover:bg-green-700 hover:text-white rounded-full px-3 py-1 dark:hover:bg-green-700 dark:text-white transition duration-300">About</a>
-          <a href="#" className="text-green-500 hover:bg-green-700 hover:text-white rounded-full px-3 py-1 dark:hover:bg-green-700 dark:text-white transition duration-300">Services</a>
-          <a href="#" className="text-green-500 hover:bg-green-700 hover:text-white rounded-full px-3 py-1 dark:hover:bg-green-700 dark:text-white transition duration-300">Contact</a>
+          <a href="/" className="text-green-500 hover:bg-green-700 hover:text-white rounded-full px-3 py-1 dark:hover:bg-green-700 dark:text-white transition duration-300">Home</a>
+          <a href="/about" className="text-green-500 hover:bg-green-700 hover:text-white rounded-full px-3 py-1 dark:hover:bg-green-700 dark:text-white transition duration-300">About</a>
+          <a href="/services" className="text-green-500 hover:bg-green-700 hover:text-white rounded-full px-3 py-1 dark:hover:bg-green-700 dark:text-white transition duration-300">Services</a>
+          <a href="/contact" className="text-green-500 hover:bg-green-700 hover:text-white rounded-full px-3 py-1 dark:hover:bg-green-700 dark:text-white transition duration-300">Contact</a>
         
         </div>
         <div className="hidden md:flex items-center space-x-3">
@@ -46,7 +75,7 @@ const Navbar: React.FC = () => {
               <span className="sr-only">Menu</span>
               <span><DropdownMenu>
 
-<DropdownMenuTrigger className='rounded-md'>Profile</DropdownMenuTrigger>
+<DropdownMenuTrigger><button>Profile</button></DropdownMenuTrigger>
 <DropdownMenuContent>
   <DropdownMenuLabel>My Account</DropdownMenuLabel>
   <DropdownMenuSeparator />
