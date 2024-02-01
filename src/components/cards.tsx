@@ -10,11 +10,11 @@ import {
 
 function Card() {
   return (
-    <Carousel className="card-w-full  max-w-screen-center px-3 py-3 h-screen items-center">
+    <Carousel className="card-w-full  max-w-screen-center px-3 py-3 h-screen items-center m-3">
       <CarouselContent className='border-black justify-center'>
       <div className="flex ">
         <CarouselItem className="basis-1/3">
-            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ease-in-out duration-300 hover:scale-105">
                 <a href="#">
                     <img className="rounded-t-lg" src="feature2.avif"  />
                 </a>
@@ -34,7 +34,7 @@ function Card() {
         </CarouselItem>
 
         <CarouselItem className='basis-1/3'>
-            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ease-in-out duration-300 hover:scale-105">
                 <a href="#">
                     <img className="rounded-t-lg" src="feature2.avif"  />
                 </a>
@@ -53,7 +53,7 @@ function Card() {
             </div>
         </CarouselItem>  
         <CarouselItem className='basis-1/3'>
-            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ease-in-out duration-300 hover:scale-105">
                 <a href="#">
                     <img className="rounded-t-lg" src="feature2.avif"  />
                 </a>
