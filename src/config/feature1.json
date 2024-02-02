@@ -1,15 +1,21 @@
 [
     {
         "name": "Feature1",
-        "img": "/feature2.avif"
+        "img": "/feature2.avif",
+        "title": "Title 1",
+        "desc":"Discription 1"
     },
     {
         "name": "Feature2",
-        "img": "/feature2.avif"
+        "img": "/feature2.avif",
+        "title":"Title 2",
+        "desc":"Discription 2"
     },
     {
         "name":"Feature3",
-        "img":"/feature2.avif"
+        "img":"/feature2.avif",
+        "title":"Title 3",
+        "desc":"Discription 3"
     }
         
 ]

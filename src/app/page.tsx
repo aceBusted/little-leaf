@@ -1,5 +1,5 @@
 'use client';
-import Card from "@/components/cards";
+import Cards from "@/components/cards";
 import Hero from "@/components/hero";
 import Navbar from "@/components/navbar";
 import Image from "next/image";
@@ -10,11 +10,12 @@ export default function Home() {
     <div>
       <Navbar />
       <Parallax pages={2} >
-      <ParallaxLayer offset={0} speed={2.5}>
+      <ParallaxLayer offset={0} speed={3.5}>
         <Hero />
       </ParallaxLayer>
-      <ParallaxLayer offset={1} speed={2.5}>
-      <Card />
+      <ParallaxLayer offset={1} speed={3.5}>
+    <Cards />
+     
       </ParallaxLayer>
     </Parallax>
       
