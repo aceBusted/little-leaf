@@ -26,7 +26,7 @@ function Cards() {
       </CardHeader>
 
               <CardContent className="flex aspect-square items-center justify-center p-6">
-                <span className="text-4xl font-semibold"><img src={member.img} alt="" /></span>
+                <span className="text-4xl font-semibold "><img src={member.img} alt="" className='rounded-xl'/></span>
               </CardContent>
             </Card>
           </div>
