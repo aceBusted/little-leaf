@@ -9,14 +9,16 @@ export default function Home() {
   return (
     <div>
       <Navbar />
-      <Parallax pages={2} >
-      <ParallaxLayer offset={0} speed={3.5}>
-        <Hero />
-      </ParallaxLayer>
-      <ParallaxLayer offset={1} speed={3.5}>
-    <Cards />
      
-      </ParallaxLayer>
+      
+
+      <Parallax pages={2} >
+        <ParallaxLayer offset={0} speed={0.2}>
+          <Hero />
+        </ParallaxLayer>
+        <ParallaxLayer offset={1} speed={0.2}>
+          <Cards />
+        </ParallaxLayer>
     </Parallax>
       
         
