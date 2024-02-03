@@ -2,20 +2,20 @@
     {
         "name": "Feature1",
         "img": "/feature2.avif",
-        "title": "Title 1",
-        "desc":"Discription 1"
+        "title": "Planet Over Profit",
+        "desc":"Maximize your power efficiency to minimize pollution and contribute to a cleaner planet."
     },
     {
         "name": "Feature2",
         "img": "/feature2.avif",
-        "title":"Title 2",
-        "desc":"Discription 2"
+        "title":"Planet Over Profit",
+        "desc":"Our sustainable solutions empower you to lessen your environmental impact and pave the way for a greener future."
     },
     {
         "name":"Feature3",
         "img":"/feature2.avif",
-        "title":"Title 3",
-        "desc":"Discription 3"
+        "title":"Planet Over Profit",
+        "desc":"Empower yourself with eco-conscious choices to decrease pollution and foster a sustainable world."
     }
         
 ]
