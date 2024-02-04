@@ -13,7 +13,7 @@ const Navbar: React.FC = () => {
   return (
     <nav className="bg-white p-4 shadow-md">
       <div className="container mx-auto flex justify-between items-center">
-        <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
+        <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse transition-transform transform hover:scale-105">
          <div className='w-20 h-20 relative'>
           <Image
           src="/logo.jpg"
@@ -23,13 +23,13 @@ const Navbar: React.FC = () => {
           className='rounded-md'
           />
         </div>
-          <span className="self-center text-2xl font-semibold whitespace-nowrap text-green-500 dark:text-white">Little Leaf</span>
+          <span className="self-center text-3xl font-extrabold whitespace-nowrap text-green-500 dark:text-white transition-colors hover:text-green-700">Little Leaf</span>
         </a>
         <div className="lg:hidden">
           <div className='flex items-center space-x-4'>
           <div className="relative">
               <div
-                className="flex items-center sm:text-left text-green-500 dark:text-white hover:bg-green-700 hover:text-white rounded-full px-3 py-1 cursor-pointer transition duration-300"
+                className="flex items-center sm:text-left text-green-600 dark:text-white hover:bg-green-100 hover:text-green-700 rounded-full px-4 py-2 cursor-pointer transform transition-transform hover:scale-105"
                 id="user-menu-button"
                 data-dropdown-toggle="user-dropdown"
                 data-dropdown-placement="bottom-start"
@@ -37,7 +37,7 @@ const Navbar: React.FC = () => {
                 <span className="sr-only">Menu</span>
                 <span>
                   <DropdownMenu>
-                    <DropdownMenuTrigger><button>Profile</button></DropdownMenuTrigger>
+                    <DropdownMenuTrigger><button className='focus:outline-none'>Profile</button></DropdownMenuTrigger>
                     <DropdownMenuContent>
 
                       <div>
@@ -57,17 +57,17 @@ const Navbar: React.FC = () => {
           
         </div>
         <div className="hidden lg:flex space-x-4 lg:items-center">
-          <a href="/" className="text-green-500 hover:bg-green-700 hover:text-white rounded-full px-3 py-1 dark:hover:bg-green-700 dark:text-white transition duration-300">Home</a>
-          <a href="/about" className="text-green-500 hover:bg-green-700 hover:text-white rounded-full px-3 py-1 dark:hover:bg-green-700 dark:text-white transition duration-300">About</a>
-          <a href="/services" className="text-green-500 hover:bg-green-700 hover:text-white rounded-full px-3 py-1 dark:hover:bg-green-700 dark:text-white transition duration-300">Services</a>
-          <a href="/contact" className="text-green-500 hover:bg-green-700 hover:text-white rounded-full px-3 py-1 dark:hover:bg-green-700 dark:text-white transition duration-300">Contact</a>
+          <a href="/" className="text-green-600 hover:bg-green-100 hover:text-green-700 rounded-full px-4 py-2 dark:hover:bg-green-100 dark:text-green-700 dark:hover:text-white transform transition-transform hover:scale-105">Home</a>
+          <a href="/about" className="text-green-600 hover:bg-green-100 hover:text-green-700 rounded-full px-4 py-2 dark:hover:bg-green-100 dark:text-green-700 dark:hover:text-white transform transition-transform hover:scale-105">About</a>
+          <a href="/services" className="text-green-600 hover:bg-green-100 hover:text-green-700 rounded-full px-4 py-2 dark:hover:bg-green-100 dark:text-green-700 dark:hover:text-white transform transition-transform hover:scale-105">Services</a>
+          <a href="/contact" className="text-green-600 hover:bg-green-100 hover:text-green-700 rounded-full px-4 py-2 dark:hover:bg-green-100 dark:text-green-700 dark:hover:text-white transform transition-transform hover:scale-105">Contact</a>
         
         </div>
         <div className="hidden md:flex items-center space-x-3">
          
           <div className="relative">
             <div
-              className="flex items-center text-sm text-green-500 dark:text-white hover:bg-green-700 hover:text-white rounded-full px-3 py-1 cursor-pointer transition duration-300"
+              className="flex items-center text-sm text-green-600 hover:bg-green-100 hover:text-green-700 rounded-full px-4 py-2 cursor-pointer dark:hover:bg-gree -100 dark:text-green-700 dark:hover:text-white transform transition-transform hover:scale-105"
               id="user-menu-button"
               data-dropdown-toggle="user-dropdown"
               data-dropdown-placement="bottom-start"
@@ -89,7 +89,7 @@ const Navbar: React.FC = () => {
             </div>
             
           </div>
-          <div className='w-20 h-20 relative'>
+          <div className='w-16 h-16 relative'>
           <Image
           src= "/logo.jpg"
           alt="logo"
@@ -98,7 +98,7 @@ const Navbar: React.FC = () => {
           className='rounded-md'
           />
           </div>
-        </div> 
+        </div>    
       </div>
     </nav>
   );
