@@ -15,14 +15,14 @@ import { Button } from './ui/button';
 function Cards() {
   return (
     <div className='flex justify-center hover:scale-105 transform transition-transform ease-in-out duration-100'>
-    <Carousel className="w-90 max-w-lg">
+    <Carousel className="w-full md:w-30 max-w-lg md:max-w-lg">
     <CarouselContent>
       {compt.map((member) => (
         <CarouselItem key={member.name} >
           <div className="p-1">
             <Card>
             <CardContent className="flex w-100 h-100 items-center justify-center p-4">
-                <span className=" font-semibold"><img className="w-100 h-[400px] rounded"src={member.img} alt="" /></span>
+                <span className=" font-semibold"><img className="w-full h-[300px]  sm:h-[350px] rounded"src={member.img} alt="" /></span>
             </CardContent>
             <CardContent>
                 <CardTitle className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{member.title}</CardTitle>
