@@ -1,4 +1,4 @@
-# **Little-Leaf - Explore and Contribute to Environmental Conservation**
+# **Little-Leaf - Explore and Contribute to Environmental Conservation 🌴**
 
 Welcome to Little Leaf, your go-to platform for exploring environmental resources around you and taking action to contribute to conservation efforts. Little Leaf utilizes the power of Google Real Life API Location to pinpoint your location and provide information about nearby environmental resources.
 
@@ -36,3 +36,7 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+## Get Involved
+
+We welcome contributions from the community to enhance Little Leaf and make it an even more powerful tool for environmental awareness. Feel free to fork the repository, open issues, and submit pull requests.
+Let's join hands to create a greener and healthier planet with Little Leaf! 🌍🍃
