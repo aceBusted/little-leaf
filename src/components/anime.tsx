@@ -1,7 +1,12 @@
 import React from "react";
 import Image from "next/image";
 
-const Card = ({ title, description }) => (
+interface CardProps {
+  title: string;
+  description: string;
+}
+
+const Card: React.FC<CardProps> = ({ title, description }) => (
   
   <div className="w-full p-8 bg-white rounded-lg shadow-lg transform transition-transform hover:scale-105">
     <h3 className="text-lg sm:text-2xl font-bold text-gray-800">{title}</h3>
