@@ -7,7 +7,7 @@ interface CardProps {
 }
 
 const Card: React.FC<CardProps> = ({ title, description }) => (
-  
+
   <div className="w-full p-8 bg-white rounded-lg shadow-lg transform transition-transform hover:scale-105">
     <h3 className="text-lg sm:text-2xl font-bold text-gray-800">{title}</h3>
     <p className="mt-2 text-sm sm:text-lg text-gray-800">{description}</p>
@@ -38,7 +38,7 @@ function Anime()
             />
             </div>  
             </div>
-          
+
 
           <div className="mt-16 mb-8 lg:grid lg:grid-cols-12 lg:items-end lg:gap-x-8">
             <div className="lg:col-start-8 xl:col-start-9 mt-6 lg:mt-0 lg:row-start-1 lg:col-span-5 xl:col-span-4">
@@ -55,7 +55,7 @@ function Anime()
               </div>
           </div>
 
-          
+
           <div className="mt-16 mb-8 lg:grid lg:grid-cols-12 lg:items-center lg:gap-x-8">
             <div className="lg:col-start-1 mt-6 lg:mt-0 lg:row-start-1 lg:col-span-5 xl:col-span-4">
             <h3 className="text-lg sm:text-2xl font-bold text-white">Code</h3>
@@ -88,11 +88,11 @@ function Anime()
 
 
           </div>
-         
-        
-      
-      
-    
+
+
+
+
+
   )
 }
 
