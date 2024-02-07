@@ -6,6 +6,7 @@ import Image from "next/image";
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import { GoogleAnalytics } from '@next/third-parties/google'
 import Script from 'next/script'
+import Anime from "@/components/anime";
 
 export default function Home() {
   return (
@@ -20,6 +21,9 @@ export default function Home() {
         </ParallaxLayer>
         <ParallaxLayer offset={1} speed={0.2}>
           <Cards />
+        </ParallaxLayer>
+        <ParallaxLayer offset={2} speed={0.2}>
+          <Anime />
         </ParallaxLayer>
     </Parallax>
 
