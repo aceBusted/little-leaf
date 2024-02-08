@@ -1,6 +1,7 @@
 'use client'
 import React from 'react'
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
+import Anime from '@/components/anime'
 
 function Page() {
   return (
@@ -15,6 +16,10 @@ function Page() {
       <ParallaxLayer offset={2} speed={2.5}>
         <p>thee</p>
       </ParallaxLayer>
+      <ParallaxLayer offset={3} speed={2.5}>
+        <Anime />
+      </ParallaxLayer>
+
     </Parallax>
         
     </div>

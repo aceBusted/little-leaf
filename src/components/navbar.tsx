@@ -23,7 +23,7 @@ const Navbar: React.FC = () => {
           className='rounded-md'
           />
         </div>
-          <span className="self-center text-3xl font-extrabold whitespace-nowrap text-green-500 dark:text-white transition-colors hover:text-green-700">Little Leaf</span>
+          <span className="self-center text-3xl font-extrabold whitespace-nowrap text-black dark:text-white transition-colors hover:text-green-700">Little Leaf</span>
         </a>
         <div className="hidden lg:flex space-x-4 lg:items-center">
         <a href="/" className="text-black hover:text-green-700 hover:font-bold font-bold hover:outline-none rounded-full px-4 py-2 dark:hover:bg-green-100 dark:text-green-700 dark:hover:text-white transform transition-transform hover:scale-105">Home</a>
