@@ -16,6 +16,7 @@ const Card: React.FC<CardProps> = ({ title, description }) => (
 function Anime()
 {
   return (
+    <>
     <div className="bg-green-500 dark:bg-green-500" id="section-features">
       <div className="mx-auto max-w-2xl py-12 px-4 sm:px-6 sm:py-12 lg:max-w-7xl lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
@@ -77,17 +78,19 @@ function Anime()
                 check out your profile
               </p>
               </div>
-            <div className="lg:col-start-8 xl:col-start-5 xl:col-span-4 flex justify-end">
+              <div className="lg:col-start-8 xl:col-start-5 xl:col-span-4 flex justify-end pb-10">
               <Card
               title="Additional Feature"
               description="Custom content for the additional feature..."
             />
               </div>
+            
           </div>
 
 
 
           </div>
+          </>
 
 
 

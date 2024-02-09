@@ -1,0 +1,25 @@
+[debug] [2024-02-08T00:38:24.172Z] ----------------------------------------------------------------------
+[debug] [2024-02-08T00:38:24.173Z] Command:       /home/aman/.nvm/versions/node/v18.17.1/bin/node /home/aman/.nvm/versions/node/v18.17.1/bin/firebase deploy
+[debug] [2024-02-08T00:38:24.174Z] CLI Version:   13.1.0
+[debug] [2024-02-08T00:38:24.174Z] Platform:      linux
+[debug] [2024-02-08T00:38:24.174Z] Node Version:  v18.17.1
+[debug] [2024-02-08T00:38:24.179Z] Time:          Thu Feb 08 2024 06:08:24 GMT+0530 (India Standard Time)
+[debug] [2024-02-08T00:38:24.179Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-02-08T00:38:24.181Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2024-02-08T00:38:24.286Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-02-08T00:38:24.287Z] > authorizing via signed-in user (12bamankumarsah28341@gmail.com)
+[debug] [2024-02-08T00:38:24.287Z] [iam] checking project little-leaf-62391 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-02-08T00:38:24.287Z] > refreshing access token with scopes: []
+[debug] [2024-02-08T00:38:24.288Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-02-08T00:38:24.288Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-02-08T00:40:38.473Z] *** [apiv2] error from fetch(https://www.googleapis.com/oauth2/v3/token, {"headers":{},"method":"POST","body":{"_overheadLength":545,"_valueLength":212,"_valuesToMeasure":[],"writable":false,"readable":true,"dataSize":0,"maxDataSize":2097152,"pauseStreams":true,"_released":true,"_streams":[],"_currentStream":null,"_insideLoop":false,"_pendingNext":false,"_boundary":"--------------------------509931815483724415383584","_events":{},"_eventsCount":1}}): FetchError: request to https://www.googleapis.com/oauth2/v3/token failed, reason: connect ETIMEDOUT 2404:6800:4002:82e::200a:443
+[debug] [2024-02-08T00:40:38.475Z] [iam] error while checking permissions, command may fail: FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2024-02-08T00:40:38.477Z] > refreshing access token with scopes: []
+[debug] [2024-02-08T00:40:38.479Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-02-08T00:40:38.480Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-02-08T00:40:38.488Z] *** [apiv2] error from fetch(https://firebase-public.firebaseio.com/cli.json, {"headers":{},"method":"GET"}): FetchError: request to https://firebase-public.firebaseio.com/cli.json failed, reason: connect ETIMEDOUT 2600:1901:0:4d00:::443
+[warn] ⚠  Unable to fetch the CLI MOTD and remote config. This is not a fatal error, but may indicate an issue with your network connection. 
+[debug] [2024-02-08T00:40:38.491Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
