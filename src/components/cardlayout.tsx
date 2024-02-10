@@ -3,20 +3,29 @@ import layoutdata from "@/config/layoutdata.json";
 
 function Cardlayout() {
   
-  const itemWidths = ['lg:w-full', 'lg:w-1/2', 'lg:w-full', 'lg:w-1/2'];
-  const colours = ['bg-green-400', 'bg-green-300', 'bg-green-300', 'bg-green-400'];
   
   return (
-    <div className="flex rounded-xl items-center justify-center object-center">
-      <div className='grid grid-rows-2 grid-cols-2 gap-3 w-10/12 h-96'>
-        {layoutdata.map((member, index) => (
-          <div key={index} className={`border-2 rounded-xl p-2 flex flex-col items-center justify-center ${colours[index]} ${itemWidths[index]} flex-grow`}>
-            <h1 className='text-xl'>{member.title}</h1>
-            <p className='text-center'>{member.description}</p>
-          </div>
-        ))}
-      </div>                    
-    </div>
+    <main className='flex items-center justify-center'>
+      <section className='grid lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-1 gap-2'>
+        <div className='p-20 border border-green-400 rounded-md flex flex-col gap-2 lg:col-span-3 lg:row-span-2 md:col-span-3 md:row-span-2 sm:col-span-1'>
+          <span className='text-[32px] font-Poppins font-bold text-center'>Title 1</span>
+          <span className='text-[18px] text-center'>Description</span>
+        </div>
+        <div className='p-20 border border-green-400 rounded-md flex flex-col gap-2 lg:col-span-1 lg:row-span-2 md:col-span-1 md:row-span-2 sm:col-span-1'>
+          <span className='text-[32px] font-Poppins font-bold text-center'>Title 2</span>
+          <span className='text-[18px] text-center'>Description</span>
+        </div>
+        <div className='p-20 border border-green-400 rounded-md flex flex-col gap-2 lg:col-span-2 md:col-span-2 sm:col-span-1'>
+          <span className='text-[32px] font-Poppins font-bold text-center'>Title 3</span>
+          <span className='text-[18px] text-center'>Description</span>
+        </div>
+        <div className='p-20 border border-green-400 rounded-md flex flex-col gap-2 lg:col-span-2 md:col-span-2 sm:col-span-1'>
+          <span className='text-[32px] font-Poppins font-bold text-center'>Title 4</span>
+          <span className='text-[18px] text-center'>Description</span>
+        </div>
+      </section>
+    </main>
+
   );
 
 }
