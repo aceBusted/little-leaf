@@ -5,13 +5,15 @@ Welcome to Little Leaf, your go-to platform for exploring environmental resource
 ## **Features**
 
 * Location-based Information: Little Leaf uses Google Real Life API to determine your location and offers detailed insights into environmental resources in your vicinity.
-* Resource Recommendations: Discover nearby parks, recycling centers, eco-friendly stores, and other resources to help you make environmentally conscious choices.
+* Resource Recommendations: Discover nearby parks, recycling centres, eco-friendly stores, and other resources to help you make environmentally conscious choices.
 * Contribution Opportunities: Find out about local environmental initiatives, volunteer opportunities, and events where you can actively participate in conservation efforts.
 * Personalized Suggestions: Receive tailored suggestions on how you can make a difference in your daily life to reduce your environmental footprint.
 
 ## Deployment
 
-Click [here](https://little-leaf.netlify.app/) to explore Little Leaf directly on Netlify.
+* Vercel - Click [here](https://little-leaf.netlify.app/) to explore Little Leaf directly on Netlify.
+
+* Firebase - Click [here](https://little-leaf-62391.web.app/) to explore Little Leaf directly on FireBase. 
 
 ## Tech Stack 
 
@@ -19,6 +21,7 @@ Click [here](https://little-leaf.netlify.app/) to explore Little Leaf directly o
 * Google Maps API 📘 - The integration of Google Maps API allows us to visually represent and map nearby environmental resources.
 * Solar API ☀ - Little Leaf incorporates the Solar API to provide information related to solar energy, promoting awareness about sustainable energy sources.
 * Tailwind CSS 🎨 - Our styling is crafted with Tailwind CSS, a utility-first CSS framework that helps us build a responsive and modern design.
+* Firebase 🔥 - For seamless backend development and real-time data synchronization, Little Leaf utilizes Firebase, a comprehensive platform that ensures a robust and scalable infrastructure for our application.
 
 ## Getting Started
 
