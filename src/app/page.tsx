@@ -16,23 +16,26 @@ export default function Home() {
        
       
 
-      <Parallax pages={4} >
+      
+
+
+      <Parallax pages={6} >
         <ParallaxLayer offset={0} speed={1}>
           <Hero />
         </ParallaxLayer>
         <ParallaxLayer offset={1} speed={1} className="w-auto">
           <Cards />
         </ParallaxLayer>
-        <ParallaxLayer offset={2} speed={0.5}>
+        <ParallaxLayer offset={2} speed={1}>
           <Anime />
         </ParallaxLayer> 
-        <ParallaxLayer offset={3} speed={1}>
-          <Cardlayout />
+        <ParallaxLayer offset={4} speed={1}>
+             <Cardlayout/>
+        </ParallaxLayer>
+        <ParallaxLayer offset={5} speed={1}>
+             
         </ParallaxLayer>
     </Parallax>
-
-
-      
     <GoogleAnalytics gaId="G-C8T4WZVMKH" />
 
      
