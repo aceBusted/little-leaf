@@ -8,6 +8,8 @@ import { GoogleAnalytics } from '@next/third-parties/google'
 import Script from 'next/script'
 import Anime from "@/components/anime";
 import Cardlayout from "@/components/cardlayout";
+import { PinPerspective } from "@/components/ui/3d-pin";
+import { AnimatedPinDemo } from "@/components/maps-pin";
 
 export default function Home() {
   return (
@@ -16,7 +18,7 @@ export default function Home() {
        
       
 
-      <Parallax pages={4} >
+      <Parallax pages={5} >
         <ParallaxLayer offset={0} speed={1}>
           <Hero />
         </ParallaxLayer>
@@ -29,7 +31,11 @@ export default function Home() {
         <ParallaxLayer offset={3} speed={1}>
           <Cardlayout />
         </ParallaxLayer>
+        <ParallaxLayer offset={4} speed={0.5} >
+          <AnimatedPinDemo />
+        </ParallaxLayer>
     </Parallax>
+    
 
 
       

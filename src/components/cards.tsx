@@ -14,6 +14,7 @@ import { Button } from './ui/button';
  
 function Cards() {
   return (
+    
     <div className='flex justify-center hover:scale-105 transform transition-transform ease-in-out duration-100'>
     <Carousel className="w-full md:w-30 max-w-lg md:max-w-lg">
     <CarouselContent>

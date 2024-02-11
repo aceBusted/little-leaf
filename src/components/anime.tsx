@@ -49,7 +49,7 @@ const Anime = () => {
 
             <div className="lg:col-start-8 xl:col-start-5 xl:col-span-4 flex justify-end"
              data-aos='fade-up'
-             data-aos-delay="20"
+             data-aos-delay="100"
              data-aos-duration="1000"
              data-aos-easing="ease-in-out"
              data-aos-mirror="true"
