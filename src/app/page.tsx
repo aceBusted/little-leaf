@@ -18,24 +18,26 @@ export default function Home() {
        
       
 
-      <Parallax pages={5} >
+      <Parallax pages={7} >
         <ParallaxLayer offset={0} speed={1}>
           <Hero />
         </ParallaxLayer>
-        <ParallaxLayer offset={1} speed={1} className="w-auto">
+        <ParallaxLayer offset={1} speed={1} >
           <Cards />
         </ParallaxLayer>
-        <ParallaxLayer offset={2} speed={0.5}>
+        <ParallaxLayer offset={2} speed={1}>
           <Anime />
         </ParallaxLayer> 
-        <ParallaxLayer offset={3} speed={1}>
-          <Cardlayout />
+        <ParallaxLayer offset={4} speed={1}>
+             <Cardlayout/>
         </ParallaxLayer>
-        <ParallaxLayer offset={4} speed={0.5} >
+        <ParallaxLayer offset={5} speed={2}>
+             
+        </ParallaxLayer>
+        <ParallaxLayer offset={6} speed={2} >
           <AnimatedPinDemo />
         </ParallaxLayer>
     </Parallax>
-    
 
 
       
