@@ -14,9 +14,9 @@ const Navbar: React.FC = () => {
     <nav className="bg-white p-4 shadow-md">
       <div className="container mx-auto flex justify-between items-center">
         <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse transition-transform transform hover:scale-105">
-         <div className='w-20 h-20 relative'>
+         <div className='w-10 h-10 relative'>
           <Image
-          src="/logo.jpg"
+          src="/logo.png"
           alt='Logo'
           layout='fill'
           objectFit='fill'
@@ -33,13 +33,7 @@ const Navbar: React.FC = () => {
         </div>
         <div className="hidden md:flex items-center space-x-3">
           <div className='w-16 h-16 relative'>
-          <Image
-          src= "/logo.jpg"
-          alt="logo"
-          layout='fill'
-          objectFit='cover' 
-          className='rounded-md'
-          />
+         
           </div>
         </div>    
       </div>
