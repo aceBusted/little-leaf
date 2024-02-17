@@ -23,7 +23,7 @@ export default function Home() {
         <ParallaxLayer offset={1} speed={1} className="w-auto">
           <Cards />
         </ParallaxLayer>
-        <ParallaxLayer offset={2} speed={0.5}>
+        <ParallaxLayer offset={2} speed={1}>
           <Anime />
         </ParallaxLayer> 
         <ParallaxLayer offset={3} speed={1}>
