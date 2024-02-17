@@ -6,7 +6,7 @@ export function AnimatedPinDemo() {
   return (
     
     <div className="h-[40rem] w-full flex items-center justify-center ">
-      <a href="googel.com">
+      <a href="https://solar-potential-sysvwjoziq-uc.a.run.app/">
       <PinContainer
         title="Solar Power Calculator(Click here)"
       >
