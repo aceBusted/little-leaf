@@ -10,6 +10,7 @@ import Anime from "@/components/anime";
 import Cardlayout from "@/components/cardlayout";
 import { PinPerspective } from "@/components/ui/3d-pin";
 import { AnimatedPinDemo } from "@/components/maps-pin";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
@@ -18,7 +19,7 @@ export default function Home() {
        
       
 
-      <Parallax pages={7} >
+      <Parallax pages={8} >
         <ParallaxLayer offset={0} speed={1}>
           <Hero />
         </ParallaxLayer>
@@ -32,10 +33,12 @@ export default function Home() {
              <Cardlayout/>
         </ParallaxLayer>
         <ParallaxLayer offset={5} speed={2}>
-             
         </ParallaxLayer>
         <ParallaxLayer offset={6} speed={2} >
           <AnimatedPinDemo />
+        </ParallaxLayer>
+        <ParallaxLayer offset={7} speed={2} >
+          <Footer/>
         </ParallaxLayer>
     </Parallax>
 
