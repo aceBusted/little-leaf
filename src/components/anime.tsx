@@ -37,15 +37,15 @@ const Anime = () => {
     <div className="bg-green-500 dark:bg-green-500" id="section-features">
       <div className="mx-auto max-w-2xl py-12 px-4 sm:px-6 sm:py-12 lg:max-w-7xl lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
-          <h2 className="text-2xl font-medium tracking-tight text-white sm:text-4xl">Features</h2>
-          <p className=" mt-4 text-white text-xl"></p>
+          <h2 className="text-2xl font-medium tracking-tight text-white sm:text-4xl">Steps to Use Our Website</h2>
+          <p className=" mt-4 text-white text-xl">Discover the power of solar energy based on your location</p>
         </div>
         </div>
           <div className="mt-16 lg:grid lg:grid-cols-12 lg:items-center lg:gap-x-8"> 
             <div className="lg:col-start-1 mt-6 lg:mt-0 lg:row-start-1 lg:col-span-5 xl:col-span-4">
-              <h3 className="text-lg sm:text-2xl  font-extrabold text-white">Optimized Power Generation</h3>
+              <h3 className="text-lg sm:text-2xl  font-extrabold text-white">Step 1: Enable Location Services</h3>
               <p className="mt-2 text-sm sm:text-lg  font-semibold text-white">
-              Maximize energy efficiency with our advanced algorithms that optimize power generation based on environmental conditions. 
+             
               </p>
             </div>
 
@@ -57,8 +57,8 @@ const Anime = () => {
              data-aos-mirror="true"
              data-aos-once="true">
               <Card
-              title="Optimized Power Generation 🌞"
-              description="Little Leaf ensures efficient utilization of solar energy, contributing to a sustainable and eco-friendly future."
+              title="Enable Location Services 🌍"
+              description=" Make sure your device's location services are enabled to provide accurate solar energy information based on your live location."
   icon={<FaSolarPanel size={40} />}
             />
             </div>  
@@ -67,15 +67,15 @@ const Anime = () => {
 
           <div className="mt-16 lg:grid lg:grid-cols-12 lg:items-end lg:gap-x-8">
             <div className="lg:col-start-8 xl:col-start-9 mt-6 lg:mt-0 lg:row-start-1 lg:col-span-5 xl:col-span-4">
-              <h3 className="text-lg sm:text-2xl  font-extrabold text-white">Empowering the Future with Sustainable Energy</h3>
+              <h3 className="text-lg sm:text-2xl  font-extrabold text-white">Step 2: Explore Nearby Solar Sources</h3>
               <p className="mt-2 text-sm sm:text-lg font-semibold text-white">
-              Get insights into future power generation trends through advanced forecasting techniques. Discover the innovative features that make Little Leaf a leader in sustainable energy solutions. From optimized power generation to predictive analysis, we're committed to creating a greener and more efficient world.
+              
               </p>
               </div>
             <div className="lg:col-start-8 xl:col-start-5 xl:col-span-4 flex justify-end">
               <Card
-              title="Future Prediction of Power Generation 🔮"
-              description="Little Leaf's predictive analysis helps you plan efficiently and adapt to changing energy demands."
+              title="Explore Nearby Solar Sources 🔮"
+              description="Once location services are enabled, click on the animated card below to discover the nearest solar energy sources in your vicinity."
               icon={<FaChartLine size={40} />}
             />
               </div>
@@ -84,14 +84,14 @@ const Anime = () => {
 
           <div className="mt-16 lg:grid lg:grid-cols-12 lg:items-center lg:gap-x-8">
             <div className="lg:col-start-1 mt-6 lg:mt-0 lg:row-start-1 lg:col-span-5 xl:col-span-4">
-            <h3 className="text-lg sm:text-2xl font-extrabold text-white">Solving Climatal Issues</h3>
-            <p className="mt-2 text-sm sm:text-lg font-semibold text-white">Little Leaf tackles climatal issues by harnessing the power of renewable sources near you. Our clean energy solutions contribute to saving the planet, creating a sustainable and eco-friendly environment for generations to come.
+            <h3 className="text-lg sm:text-2xl font-extrabold text-white">Step 3: View Real-time Solar Data</h3>
+            <p className="mt-2 text-sm sm:text-lg font-semibold text-white"> 
             </p>
             </div>
             <div className="lg:col-start-8 xl:col-start-5 flex-auto xl:col-span-4 flex justify-end">
               <Card
-              title="Renewable Energy Solutions 🌿"
-              description="Utilize clean energy from local sources to combat climatal issues. Little Leaf's renewable energy solutions are designed to make a positive impact on the environment and promote a greener planet."
+              title="Use the Solar Calculator ⚡"
+              description="Once you've explored nearby solar sources, click on the Solar Power Calculator option to view live solar data for your location. This includes other relevant information."
               icon={<FaLeaf size={40} />}
             />
               </div>
@@ -99,15 +99,14 @@ const Anime = () => {
 
            <div className="mt-16 lg:grid lg:grid-cols-12 lg:items-end lg:gap-x-8">
             <div className="lg:col-start-8 xl:col-start-9 mt-6 lg;mt-0 lg:row-start-1 lg:col-span-5 xl:col-span-4">
-              <h3 className="text-lg sm:text-2xl  font-extrabold text-white">Feature 4: 24*7 Availability, Reliable and Trustworthy Product</h3>
+              <h3 className="text-lg sm:text-2xl  font-extrabold text-white">Step 4: Plan Your Energy Usage</h3>
               <p className="mt-2 text-sm sm:text-lg  font-semibold text-white">
-              Experience the unparalleled advantages of Little Leaf's energy solutions, ensuring 24*7 availability, reliability, and a trustworthy product. Our commitment to accessibility, sustainability, and scalability sets us apart in the industry.
               </p>
               </div>
               <div className="lg:col-start-8 xl:col-start-5 xl:col-span-4 flex justify-end pb-10">
               <Card
-              title="Uninterrupted Availability 🌐"
-              description="Little Leaf provides round-the-clock availability, ensuring a continuous and reliable energy supply. Experience peace of mind with our commitment to accessibility and sustainability, offering a trustworthy and scalable product for your energy needs."
+              title="Plan Your Energy Usage 📅"
+              description="Make informed decisions by planning your energy usage based on the provided solar data. Optimize the timing of energy consumption during peak solar hours for efficiency and cost-effectiveness."
               icon={<FaClock size={40} />}
             />
               </div>

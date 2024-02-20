@@ -1,21 +1,27 @@
 [
     {
         "name": "Feature1",
-        "img": "/feature2.avif",
-        "title": "Planet Over Profit",
-        "desc":"Maximize your power efficiency to minimize pollution and contribute to a cleaner planet."
+        "img": "/feature1.avif",
+        "title": "Energy Storage Challenges",
+        "desc":"The intermittency of solar energy production requires effective energy storage solutions for continuous power supply."
     },
     {
         "name": "Feature2",
-        "img": "/feature2.avif",
-        "title":"Planet Over Profit",
-        "desc":"Our sustainable solutions empower you to lessen your environmental impact."
+        "img": "/Feature3.avif",
+        "title":"Carbon Footprint Of Manufacturing",
+        "desc":"The manufacturing process of solar panels, particularly if reliant on fossil fuels, can contribute to carbon emissions."
     },
     {
         "name":"Feature3",
-        "img":"/feature2.avif",
-        "title":"Planet Over Profit",
-        "desc":"Empower yourself with eco-conscious choices to decrease pollution and foster a sustainable world."
+        "img":"/feature4.avif",
+        "title":"Limited Energy Conversion Efficiency",
+        "desc":"The efficiency of solar panels in converting sunlight to electricity is not 100%, leading to some energy loss."
+    },
+    {
+        "name":"Feature3",
+        "img":"/feature5.avif",
+        "title":"Land Use and Ecosystem Impact",
+        "desc":"Large-scale solar projects can impact local ecosystems and biodiversity by requiring significant land use."
     }
         
 ]
