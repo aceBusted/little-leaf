@@ -1,9 +1,7 @@
 import React from 'react';
 import layoutdata from "@/config/layoutdata.json";
-
+import Image from 'next/image';
 function Cardlayout() {
-  
-  
   return (
     <main className='flex items-center justify-center'>
       <section className='grid lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-1 gap-2'>
