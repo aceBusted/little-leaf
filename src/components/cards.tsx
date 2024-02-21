@@ -23,7 +23,7 @@ function Cards() {
           <div className="p-1">
             <Card>
             <CardContent className="flex w-100 h-100 items-center justify-center p-4">
-                <span className=" font-semibold"><img className="w-full h-[300px]  sm:h-[350px] rounded"src={member.img} alt="" /></span>
+                <span className=" font-semibold"><img className="w-full h-[300px]  sm:h-[350px] rounded"src={member.img} alt={member.title} /></span>
             </CardContent>
             <CardContent>
                 <CardTitle className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{member.title}</CardTitle>

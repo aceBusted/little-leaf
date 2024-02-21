@@ -54,7 +54,7 @@ const Hero = () => {
             >
               <a
                 className="block w-full rounded bg-green-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-green-700 focus:outline-none focus:ring active:bg-green-500 sm:w-auto"
-                href="/get-started"
+                href="https://solar-potential-sysvwjoziq-uc.a.run.app/" target='_blank'
               >
                 Get Started
               </a>
