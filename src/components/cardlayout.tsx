@@ -7,8 +7,8 @@ function Cardlayout() {
       <section className='grid lg:grid-cols-3 md:grid-cols-4 sm:grid-cols-1 gap-2 justify-center'>
         <div className='p-20 border border-green-400 rounded-md flex flex-col gap-2 lg:col-span-1 lg:row-span-2 md:col-span-1 md:row-span-2 sm:col-span-1'>
           <span className='text-[19px] font-Poppins font-bold text-center'>Up to</span>
-          <span className='text-[48px] font-Poppins font-bold text-center'>70%</span>
-          <span className='text-[19px] font-Poppins font-bold text-center'>of saving</span>
+          <span className='text-[48px] font-Poppins font-bold text-center'>30%</span>
+          <span className='text-[19px] font-Poppins font-bold text-center'>of energy saving</span>
         </div>
         <div className='p-20 border border-green-400 rounded-md flex flex-col gap-2 lg:col-span-1 lg:row-span-2 md:col-span-1 md:row-span-2 sm:col-span-1'>
           <span className='text-[19px] font-Poppins font-bold text-center'>Delivering</span>
@@ -30,9 +30,9 @@ function Cardlayout() {
 
         </div>
         <div className='p-20 border border-green-400 rounded-md flex flex-col gap-2 lg:col-span-1 lg:row-span-2 md:col-span-1 md:row-span-2 sm:col-span-1'>
-          <span className='text-[19px] font-Poppins font-bold text-center'>Present in more than</span>
-          <span className='text-[48px] font-Poppins font-bold text-center'>50 +</span>
-          <span className='text-[22px] font-Poppins font-bold text-center'>cities</span>
+          <span className='text-[19px] font-Poppins font-bold text-center'>Upto</span>
+          <span className='text-[48px] font-Poppins font-bold text-center'>25%</span>
+          <span className='text-[22px] font-Poppins font-bold text-center'>cost Reduction Anually</span>
         </div>
       </section>
     </main>
