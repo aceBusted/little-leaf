@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Aman Kumar Sah",
+        "designation": "Student Developer",
+        "image":"https://avatars.githubusercontent.com/u/73239818?v=4",
+        "url": "https://github.com/raka334"
+    },
+        {
+        "id": 2,
+        "name": "Simer",
+        "designation": "Student Developer",
+        "image":"https://avatars.githubusercontent.com/u/113010708?v=4",
+        "url" : "https://github.com/Simer13"
+    },
+    {
+        "id": 3,
+        "name": "Subah",
+        "designation": "Student Developer",
+        "image":"https://avatars.githubusercontent.com/u/89022048?v=4",
+        "url" : "https://github.com/subah2004"
+    }
+
+
+        
+]

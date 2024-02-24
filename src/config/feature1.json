@@ -1,25 +1,25 @@
 [
     {
         "name": "Feature1",
-        "img": "/feature1.avif",
+        "img": "https://img.freepik.com/free-vector/sun-energy-concept-illustration_114360-6090.jpg?t=st=1708466617~exp=1708470217~hmac=e40070eb75d51af6bf3ca2167ac60cbd2c54d9f4a0a3d6c56e990502219556a9&w=1380",
         "title": "Energy Storage Challenges",
         "desc":"The intermittency of solar energy production requires effective energy storage solutions for continuous power supply."
     },
     {
         "name": "Feature2",
-        "img": "/Feature3.avif",
+        "img": "https://cdn.dribbble.com/users/4670608/screenshots/18204028/media/084d7d0588f0358bf78b094b81402dc9.jpg?resize=1000x750&vertical=center",
         "title":"Carbon Footprint Of Manufacturing",
         "desc":"The manufacturing process of solar panels, particularly if reliant on fossil fuels, can contribute to carbon emissions."
     },
     {
         "name":"Feature3",
-        "img":"/feature4.avif",
+        "img":"https://img.freepik.com/free-vector/house-with-solar-panels-sorting-litter-bins_107791-2094.jpg?t=st=1708466694~exp=1708470294~hmac=3be019d218a8214d7269d6b34d288a49a84a4bffacac5573a366e15329d8d462&w=1480",
         "title":"Limited Energy Conversion Efficiency",
         "desc":"The efficiency of solar panels in converting sunlight to electricity is not 100%, leading to some energy loss."
     },
     {
         "name":"Feature3",
-        "img":"/feature5.avif",
+        "img":"https://img.freepik.com/free-vector/renewable-energy-concept-illustration_114360-14177.jpg?t=st=1708466756~exp=1708470356~hmac=85a59dd43da0d8255521b0684c8cae6b05eb79ac052a53584a209ded97fbc230&w=740",
         "title":"Land Use and Ecosystem Impact",
         "desc":"Large-scale solar projects can impact local ecosystems and biodiversity by requiring significant land use."
     }

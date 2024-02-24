@@ -37,8 +37,8 @@ const Anime = () => {
     <div className="bg-green-500 dark:bg-green-500" id="section-features">
       <div className="mx-auto max-w-2xl py-12 px-4 sm:px-6 sm:py-12 lg:max-w-7xl lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
-          <h2 className="text-2xl font-medium tracking-tight text-white sm:text-4xl">Steps to Use Our Website</h2>
-          <p className=" mt-4 text-white text-xl">Discover the power of solar energy based on your location</p>
+          <h2 className="text-2xl font-bold tracking-tight text-white sm:text-4xl ">Steps to Use Our Website.</h2>
+          <p className=" mt-4 text-white text-xl font-medium">Discover the power of solar energy based on your location</p>
         </div>
         </div>
           <div className="mt-16 lg:grid lg:grid-cols-12 lg:items-center lg:gap-x-8"> 
@@ -90,7 +90,7 @@ const Anime = () => {
             </div>
             <div className="lg:col-start-8 xl:col-start-5 flex-auto xl:col-span-4 flex justify-end">
               <Card
-              title="Use the Solar Calculator ⚡"
+              title="Use the Energy Calculator ⚡"
               description="Once you've explored nearby solar sources, click on the Solar Power Calculator option to view live solar data for your location. This includes other relevant information."
               icon={<FaLeaf size={40} />}
             />
