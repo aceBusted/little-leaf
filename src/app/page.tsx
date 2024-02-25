@@ -33,7 +33,7 @@ export default function Home() {
         <ParallaxLayer offset={3} speed={1}>
              <Cardlayout/>
         </ParallaxLayer>
-        <ParallaxLayer offset={4} speed={2.5} >
+        <ParallaxLayer offset={4} speed={1.5} >
           <AnimatedPinDemo />
         </ParallaxLayer>
         <ParallaxLayer offset={5} speed={10} >
