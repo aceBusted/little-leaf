@@ -5,7 +5,7 @@ const Footer = () => {
   return (
 	<>
 	<footer className="bg-gray-100">
-	<div className="mx-auto max-w-5xl px-10 sm:px-6 lg:px-8  absolute content-center bottom-0 justify-center  items-center p-10">
+	<div className="mx-auto max-w-5xl content-center bottom-0 justify-center  items-center p-10">
 	  <div className="flex justify-center text-teal-600">
 	  <svg width="100" height="100" viewBox="0 0 313 226" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="200" height="200" fill="#00000"/>
