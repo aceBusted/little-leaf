@@ -13,7 +13,7 @@ const Navbar: React.FC = () => {
   return (
     <nav className="bg-white p-4 shadow-md">
       <div className="container mx-auto flex justify-between items-center">
-        <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse transition-transform transform hover:scale-105">
+        <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse transition-transform transform hover:scale-105">
          <div className='w-10 h-10 relative'>
           <Image
           src="/logo.png"
