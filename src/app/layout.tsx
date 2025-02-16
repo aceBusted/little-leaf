@@ -19,6 +19,25 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+     <Head>
+        {/* Google Tag Manager */}
+        <Script
+          strategy="afterInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=AW-16878057161"
+        />
+        <Script
+          id="gtag-init"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'AW-16878057161');
+            `,
+          }}
+        />
+      </Head>
       <body className={inter.className}>
       <GoogleAnalytics gaId="G-C8T4WZVMKH" />
       
